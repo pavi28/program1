@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class nn
+class nn1
 {
 public static void main(String a[])
 {
