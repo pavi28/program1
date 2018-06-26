@@ -16,7 +16,7 @@ for(int j=h.length()-1;j>=0;j++)
 {
 str2=str2+String.valueOf(h.charAt(j));
 }
-str3=str3+str2+" "
+str3=str3+str2+" ";
 str2="";
 }
 System.out.println(str3.trim());
