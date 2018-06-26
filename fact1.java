@@ -6,8 +6,8 @@ public static void main(String a[])
 {
 Scanner sc=new Scanner(System.in);
 int h=sc.nextInt();
-fact=1;
-for(int i=1;i<h;i++)
+int fact=1;
+for(int i=1;i<=h;i++)
 {
 fact=fact*i;
 }
