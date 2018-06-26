@@ -9,10 +9,10 @@ String str=sc.nextLine();
 String str2="";
 String str3="";
 String str1[]=str.split(" ");
-for(int i=0;i<str1.length;i--)
+for(int i=0;i<str1.length;i++)
 {
 String h=str1[i];
-for(int j=h.length()-1;j>=0;j++)
+for(int j=h.length()-1;j>=0;j--)
 {
 str2=str2+String.valueOf(h.charAt(j));
 }
